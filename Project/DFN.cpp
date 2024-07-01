@@ -9,10 +9,6 @@
 
 using namespace std;
 
-double crossProduct2D(double x1, double y1, double x2, double y2) {
-    return x1 * y2 - y1 * x2;
-}
-
 bool segmentsIntersect2D(const Vertex& p1, const Vertex& p2, const Vertex& q1, const Vertex& q2, Vertex& intersection) {
     double s1_x = p2.x - p1.x;
     double s1_y = p2.y - p1.y;

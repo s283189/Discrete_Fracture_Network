@@ -30,7 +30,6 @@ struct Trace {
     vector<Vertex> intersectionPoints;
 };
 
-double crossProduct2D(double x1, double y1, double x2, double y2);
 bool segmentsIntersect2D(const Vertex& p1, const Vertex& p2, const Vertex& q1, const Vertex& q2, Vertex& intersection);
 bool segmentsIntersect2D_vista_x(const Vertex& p1, const Vertex& p2, const Vertex& q1, const Vertex& q2, Vertex& intersection);
 set<Vertex> pointInFractures_x(const set<Vertex>& intersections, const Fracture& f);

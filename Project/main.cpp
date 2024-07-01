@@ -10,13 +10,6 @@ using namespace std;
 
 // GOOGLE TEST
 
-// Test per crossProduct2D
-TEST(CrossProduct2DTest, BasicAssertions) {
-    EXPECT_DOUBLE_EQ(crossProduct2D(1, 2, 3, 4), -2);
-    EXPECT_DOUBLE_EQ(crossProduct2D(0, 0, 0, 0), 0);
-    EXPECT_DOUBLE_EQ(crossProduct2D(1, 0, 0, 1), 1);
-}
-
 // Test per segmentsIntersect2D
 TEST(SegmentsIntersect2DTest, IntersectingSegments) {
     Vertex p1 = {0, 0, 0}, p2 = {2, 2, 0};
